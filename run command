@@ -1,0 +1,1 @@
+py "baseline_preprocessing_pipeline.py" "C:\Users\98937\Desktop\DFKI\Master_thesis\VIBES data\Baselines_with_subject" --output-dir "C:\Users\98937\Desktop\DFKI\Master_thesis\VIBES data\Baselines_with_subject\processed_final" --config "baseline_config.json" --batch --plots
