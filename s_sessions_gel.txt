@@ -1,0 +1,20 @@
+s1_sessions_gel = [2,3,5,7,11,12]
+s1_sessions_dry = [1,4,6,8,9,10]
+
+s2_sessions_gel = [1,4,5,7,9,11]
+s2_sessions_dry = [2,3,6,8,10,12]
+
+s3_sessions_gel = [1,3,6,7,10,12]
+s3_sessions_dry = [2,4,5,8,9,11]
+
+s5_sessions_gel = [1,3,6,7,10,11]
+s5_sessions_dry = [2,4,5,8,9,12]
+
+s6_sessions_gel = [1,4,5,7,9,11]
+s6_sessions_dry = [2,3,6,8,10,12]
+
+s7_sessions_gel = [2,3,5,7,10,11]
+s7_sessions_dry = [1,4,6,8,9,12]
+
+s8_sessions_gel = [1,3,6,7,9,12]
+s8_sessions_dry = [2,4,5,8,10,11]

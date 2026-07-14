@@ -1,0 +1,43 @@
+{
+  "csv_separator": ";",
+  "timestamp_column": "stream_time",
+  "ignored_columns": [
+    "Trigger",
+    "Sample Counter"
+  ],
+  "ignored_prefixes": [
+    "Bipolar_"
+  ],
+  "amplitude_unit": "mV",
+
+  "nominal_fs": 1024.0,
+  "sampling_frequency_mode": "nominal",
+
+  "eog_name_token": "EOG",
+  "eog_required": false,
+  "montage": "standard_1020",
+
+"zapline_enabled": true,
+"zapline_eog_enabled": false,
+"line_noise_hz": 50.0,
+"zap_nremove_eeg": 1,
+"zap_nremove_eog": 1,
+"fallback_notch_enabled": true,
+
+  "butterworth_order": 4,
+  "eeg_low_cut_hz": 0.5,
+  "eeg_high_cut_hz": 80.0,
+  "eog_lowpass_hz": 10.0,
+
+  "crop_duration_seconds": 60.0,
+
+  "epoch_duration_seconds": 4.0,
+  "epoch_overlap_seconds": 0.0,
+
+  "epoch_peak_to_peak_threshold_volts": 0.00035,
+  "epoch_large_excursion_threshold_volts": 0.00035,
+  "epoch_extreme_peak_to_peak_threshold_volts": 0.001,
+  "max_bad_channels": 5,
+
+  "generate_plots": true
+}

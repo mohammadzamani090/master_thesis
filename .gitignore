@@ -1,0 +1,15 @@
+Baselines_with_subject/
+__pycache__/
+.venv/
+results/
+outputs/
+*.edf
+*.bdf
+*.fif
+*.set
+*.fdt
+*.mat
+*.vhdr
+*.vmrk
+*.eeg
+*.cnt

@@ -1,0 +1,9 @@
+Baseline centered 60-second cropping report
+Input file: Baselines_with_subject\sub-s01_ses-1_run-001_bl-01.csv
+
+Original duration: 65.001878 seconds
+Crop start: 427347.482635
+Crop end: 427407.482635
+Cropped duration: 60.000000 seconds
+Number of cropped samples: 61438
+Status: OK

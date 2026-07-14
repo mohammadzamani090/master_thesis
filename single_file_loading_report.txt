@@ -1,0 +1,235 @@
+Single-file CSV loading report
+Input file: Baselines_with_subject\sub-s01_ses-1_run-001_bl-01.csv
+
+Number of samples: 66560
+Duration in seconds: 65.001878
+Inferred sampling frequency: 1023.955019 Hz
+Number of EEG channels: 63
+Channel names used: Fp1, Fpz, Fp2, F7, F3, Fz, F4, F8, FC5, FC1, FC2, FC6, AFz, T7, C3, Cz, C4, T8, CPz, CP5, CP1, CP2, CP6, P7, P3, Pz, P4, P8, POz, O1, O2, AF7, AF3, AF4, AF8, F5, F1, F2, F6, FC3, FCz, FC4, C5, C1, C2, C6, CP3, CP4, P5, P1, P2, P6, PO5, PO3, PO4, PO6, FT7, FT8, TP7, TP8, PO7, PO8, Oz
+Minimum EEG value: -65.544960 uV
+Maximum EEG value: 34.361760 uV
+Mean EEG value: -11.779489 uV
+Standard deviation: 18.413044 uV
+Plausibility check: OK: EEG values are within a broad expected microvolt range.
+
+Column audit
+Total CSV columns: 91
+Selected EEG columns: 63
+Ignored columns: 28
+Non-bipolar signal columns before ignoring EOG: 64
+
+All CSV columns:
+  01. stream_time
+  02. Fp1
+  03. Fpz
+  04. Fp2
+  05. F7
+  06. F3
+  07. Fz
+  08. F4
+  09. F8
+  10. FC5
+  11. FC1
+  12. FC2
+  13. FC6
+  14. AFz
+  15. T7
+  16. C3
+  17. Cz
+  18. C4
+  19. T8
+  20. CPz
+  21. CP5
+  22. CP1
+  23. CP2
+  24. CP6
+  25. P7
+  26. P3
+  27. Pz
+  28. P4
+  29. P8
+  30. POz
+  31. O1
+  32. O2
+  33. EOG
+  34. AF7
+  35. AF3
+  36. AF4
+  37. AF8
+  38. F5
+  39. F1
+  40. F2
+  41. F6
+  42. FC3
+  43. FCz
+  44. FC4
+  45. C5
+  46. C1
+  47. C2
+  48. C6
+  49. CP3
+  50. CP4
+  51. P5
+  52. P1
+  53. P2
+  54. P6
+  55. PO5
+  56. PO3
+  57. PO4
+  58. PO6
+  59. FT7
+  60. FT8
+  61. TP7
+  62. TP8
+  63. PO7
+  64. PO8
+  65. Oz
+  66. Bipolar_1
+  67. Bipolar_2
+  68. Bipolar_3
+  69. Bipolar_4
+  70. Bipolar_5
+  71. Bipolar_6
+  72. Bipolar_7
+  73. Bipolar_8
+  74. Bipolar_9
+  75. Bipolar_10
+  76. Bipolar_11
+  77. Bipolar_12
+  78. Bipolar_13
+  79. Bipolar_14
+  80. Bipolar_15
+  81. Bipolar_16
+  82. Bipolar_17
+  83. Bipolar_18
+  84. Bipolar_19
+  85. Bipolar_20
+  86. Bipolar_21
+  87. Bipolar_22
+  88. Bipolar_23
+  89. Bipolar_24
+  90. Trigger
+  91. Sample Counter
+
+Selected EEG columns:
+  01. Fp1
+  02. Fpz
+  03. Fp2
+  04. F7
+  05. F3
+  06. Fz
+  07. F4
+  08. F8
+  09. FC5
+  10. FC1
+  11. FC2
+  12. FC6
+  13. AFz
+  14. T7
+  15. C3
+  16. Cz
+  17. C4
+  18. T8
+  19. CPz
+  20. CP5
+  21. CP1
+  22. CP2
+  23. CP6
+  24. P7
+  25. P3
+  26. Pz
+  27. P4
+  28. P8
+  29. POz
+  30. O1
+  31. O2
+  32. AF7
+  33. AF3
+  34. AF4
+  35. AF8
+  36. F5
+  37. F1
+  38. F2
+  39. F6
+  40. FC3
+  41. FCz
+  42. FC4
+  43. C5
+  44. C1
+  45. C2
+  46. C6
+  47. CP3
+  48. CP4
+  49. P5
+  50. P1
+  51. P2
+  52. P6
+  53. PO5
+  54. PO3
+  55. PO4
+  56. PO6
+  57. FT7
+  58. FT8
+  59. TP7
+  60. TP8
+  61. PO7
+  62. PO8
+  63. Oz
+
+Ignored columns:
+  01. stream_time
+  02. EOG
+  03. Bipolar_1
+  04. Bipolar_2
+  05. Bipolar_3
+  06. Bipolar_4
+  07. Bipolar_5
+  08. Bipolar_6
+  09. Bipolar_7
+  10. Bipolar_8
+  11. Bipolar_9
+  12. Bipolar_10
+  13. Bipolar_11
+  14. Bipolar_12
+  15. Bipolar_13
+  16. Bipolar_14
+  17. Bipolar_15
+  18. Bipolar_16
+  19. Bipolar_17
+  20. Bipolar_18
+  21. Bipolar_19
+  22. Bipolar_20
+  23. Bipolar_21
+  24. Bipolar_22
+  25. Bipolar_23
+  26. Bipolar_24
+  27. Trigger
+  28. Sample Counter
+
+CSV columns not selected as EEG and not ignored:
+  (none)
+
+Other EEG labels recognized by the script but absent from this CSV:
+  01. AF1
+  02. AF10
+  03. AF2
+  04. AF5
+  05. AF6
+  06. AF9
+  07. F10
+  08. F9
+  09. FT10
+  10. FT9
+  11. Iz
+  12. P10
+  13. P9
+  14. PO1
+  15. PO10
+  16. PO2
+  17. PO9
+  18. T10
+  19. T9
+  20. TP10
+  21. TP9
+
+Conclusion: The CSV has 64 non-bipolar signal columns: 63 selected EEG channels plus EOG, which is intentionally ignored. No EEG-labelled CSV column appears to be missing, renamed, or incorrectly ignored by the current rules.
